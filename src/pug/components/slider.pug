@@ -1,0 +1,29 @@
+include ../mixins/slide-item.pug
+.slider
+    +slide-item({
+        img:'./assets/imgs/backslider.jpg'
+    })
+    // Slider main container
+.swiper.slider
+    // Additional required wrapper
+    .swiper-wrapper
+        // Slides
+        .swiper-slide
+            slide-item({
+                img:'./assets/imgs/backslider.jpg'
+            })
+        .swiper-slide
+            slide-item({
+                img:'./assets/imgs/backslider.jpg'
+            })
+        .swiper-slide
+            slide-item({
+                img:'./assets/imgs/backslider.jpg'
+            })
+    //// If we need pagination
+    //.swiper-pagination
+    //// If we need navigation buttons
+    //.swiper-button-prev
+    //.swiper-button-next
+    //// If we need scrollbar
+    //.swiper-scrollbar

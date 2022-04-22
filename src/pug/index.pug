@@ -2,12 +2,13 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
         title Document
         link(rel="stylesheet", href="./assets/css/vendors.min.css")
         link(rel="stylesheet", href="./assets/css/app.css")
     body
-        include components/header.pug
-        include components/category.pug
-        script(src="./assets/js/vendors.min.js")
+        include ./components/header.pug
+        include ./components/slider.pug
+        include ./components/category.pug
+        script(src"./assets/js/vendors.min.js")
         script(src="./assets/js/app.js")
