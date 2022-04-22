@@ -1,0 +1,13 @@
+include ../mixins/category-item
+
+section.container.category
+    .category__header
+        h3 Shop By
+        h2 Categories
+    .category__row
+        +category-item('./assets/imgs/categori1.svg', 'Vegetables & Fruits')
+        +category-item('./assets/imgs/categori2.svg', 'Grocery & Staples')
+        +category-item('./assets/imgs/categori3.svg', 'Dairy & Eggs')
+        +category-item('./assets/imgs/categori4.svg', 'Beverages')
+        +category-item('./assets/imgs/categori5.svg', 'Snacks')
+        +category-item('./assets/imgs/categori6.svg', 'Home Care')

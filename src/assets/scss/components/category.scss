@@ -1,0 +1,43 @@
+.category {
+    width: 1183px;
+    height: 207px;
+     display: flex;
+     flex-direction: column;
+  justify-content: space-between;
+  }
+
+.category {
+  &__header {
+    color: #7FAD39;
+    width: 186px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 180px;
+    height: 127px;
+    left: 401px;
+    top: 611px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(42, 42, 42, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+
+  }
+}
+

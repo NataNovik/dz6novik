@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <header></header>
+    <!--mixin category-item(args={})-->
+    <!--    a(href="#").category__item-->
+    <!--        img(src=args.img, alt="category").category__img-->
+    <!--        span.category__text=args.text-->
+    <section class="container category">
+      <div class="category__header">
+        <h3>Shop By</h3>
+        <h2>Categories</h2>
+      </div>
+      <div class="category__row"><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori1.svg" alt="category"><span class="category__text">Vegetables &amp; Fruits</span></a><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori2.svg" alt="category"><span class="category__text">Grocery &amp; Staples</span></a><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori3.svg" alt="category"><span class="category__text">Dairy &amp; Eggs</span></a><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori4.svg" alt="category"><span class="category__text">Beverages</span></a><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori5.svg" alt="category"><span class="category__text">Snacks</span></a><a class="category__item" href="#"><img class="category__img" src="./assets/imgs/categori6.svg" alt="category"><span class="category__text">Home Care</span></a>
+      </div>
+    </section>
     <script src="./assets/js/vendors.min.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>
-
 </html>
